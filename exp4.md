@@ -2,20 +2,20 @@
 Normalization Techniques are essential in data preprocessing to scale numerical features to a common range, reducing the impact of different units and improving model performance in machine learning by ensuring fair comparisons between variables. 
 ## Introduction:
 Normalization is a scaling technique in Machine Learning applied during data preparation to change the values of numeric columns in the dataset to use a common scale.
-<br>
+
 The basic formula for Normalization can be given as below:
-<br>
+
 
 Normalization (Min-Max Scaling):
-<br>
 
-- Formula:<br>
+
+- Formula:
 
      ![image](https://github.com/user-attachments/assets/70fc8363-9bee-49e5-9066-608c82fe4fc6)
 
-<br>
 
-- Purpose: Rescales features to a specific range, typically [0, 1].<br>
+
+- Purpose: Rescales features to a specific range, typically [0, 1].
 
 - Impact: Changes the range of the data but preserves the distribution's shape.
 
