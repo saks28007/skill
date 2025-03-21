@@ -1,8 +1,8 @@
 # EXP 3: Data Preprocessing- Applying encoding techniques. 
-<br>
+
 Encoding is an essential step in data preprocessing that converts categorical data into numerical form, making it usable for machine learning models. This repository explains different encoding techniques and how to use them effectively.  
 
-<br>
+
  
 ##  Introduction  
 Machine learning models require numerical data for training. However, datasets often contain categorical variables that need to be converted into numbers. This is where **encoding techniques** help.  
@@ -11,17 +11,17 @@ Machine learning models require numerical data for training. However, datasets o
 
 ##  Types of Encoding  
 
-<br>
+
 1. Label Encoding.
-<br>
+   
 2. One-hot Encoding.
-<br>
+   
 3. Ordinal Encoding.
-<br>
-4. Target Encoding. 
-<br>
+  
+4. Target Encoding.
+  
 5. Binary Encoding.
-<br>
+ 
 6. Frequency Encoding.
  
 
@@ -53,7 +53,7 @@ print(one_hot_encoded)
  
 ### 3. Ordinal encoding:
  Assigns numbers to categories based on their order (e.g., Low= 0, Medium = 1, High = 2).
-<br>
+
 
 ``` 
 from sklearn.preprocessing import OrdinalEncoder
@@ -65,7 +65,7 @@ print(f"Ordinal Encoded Data: {encoded_data}")
  
 ### 4. Target encoding:
 Replaces categories with the average value of the target variable for that category.
-<br>
+
 
 ```
 !pip install category_encoders
@@ -81,7 +81,7 @@ print(f"Target encoded: {encoded_data}")
  
 ### 5. Binary encoding:
  Converts category values into binary (0s and 1s) and stores them in multiple columns.
-<br>
+
 
 ```
 import category_encoders as ce
@@ -94,7 +94,7 @@ print(encoded_data)
  
 ### 6. Frequency encoding:
 Replaces categories with how often they appear in the dataset.
-<br>
+
 
 ```
 import pandas as pd
