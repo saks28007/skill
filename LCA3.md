@@ -224,26 +224,3 @@ def plot_roc_curve(model, X_test, y_test, model_name="Model"):
 
 plot_roc_curve(model, X_test, y_test, model_name="XGBoost")
 ```
-## Output:
- ![Screenshot 2025-04-28 105643](https://github.com/user-attachments/assets/bdf9086c-2ab3-49ed-a8dd-cb9e76da7e84)
-![download (13)](https://github.com/user-attachments/assets/c4f2ba6e-0452-423d-b2a0-31d40b5923ee)
-Random Forest Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    733609
-           1       1.00      0.99      0.99    733609
-
-    accuracy                           0.99   1467218
-   macro avg       0.99      0.99      0.99   1467218
-weighted avg       0.99      0.99      0.99   1467218
-
-/usr/local/lib/python3.11/dist-packages/xgboost/core.py:158: UserWarning: [04:01:50] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
-XGBoost Accuracy:
-Train Accuracy: 0.9934
-Test Accuracy:  0.9932
-![download (14)](https://github.com/user-attachments/assets/2dea5560-f099-4f5f-b0fa-fc0736ed6701)
-![download (15)](https://github.com/user-attachments/assets/42052eba-d8d3-4a75-8fc7-7e504e778495)
-
