@@ -1,4 +1,4 @@
-# Datascience LCA 3- Combine All 12 Experiments into One model
+# skill LCA 3-  All 12 Experiments into One model
 ## Introduction
 This repository contains the code and results for an experiment involving **data visualization and statistical analysis** using Python. The objective is to explore a dataset by performing summary statistics and visualizations such as histograms, box plots, and correlation heatmaps. These techniques are core parts of Exploratory Data Analysis (EDA) in data science.
 
